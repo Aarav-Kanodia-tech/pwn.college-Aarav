@@ -3,6 +3,7 @@
 ## Learnt:
 
 - already knew absolute paths due to learning about git repos  
+- relative paths  
 - `~` notation of paths  
   
 ## Sources:
