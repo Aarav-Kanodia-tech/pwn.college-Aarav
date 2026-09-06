@@ -1,4 +1,4 @@
-# Module 7" Shell Variable
+# Module 7:Shell Variable
 ## Learnt:
 - how to make variables
 - how to call variables
