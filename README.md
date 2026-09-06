@@ -26,3 +26,10 @@ This is the list of everything I learnt with their meanings so I can refer easil
 |sed|search and replace(only in the current output)|`sed "s/<find>/<replace>/g"`|N.A|
 |tee|does redirection and allows further piping|`<command to pipe> \| tee <file>`|`-a` to append|
 |mkfifo|creates a pipe which passes whatever is entered without storing|`mkfifo <pipe name>`|N.A.|
+|export|export value of variables|`export <variable>`|N.A.|
+|env|prints every exported variable|`env`|N.A.|
+|read|input statement|`read <vairable>`|`-p` for the text of input|
+|tr|translates|`<command>\|tr <things to be translated> <translation>`|`-d` to delete|
+|head|see the first word of n lines(10 by default)|` <item to read> \|head`|`-n` to signify no of lines|
+|cut|to separate words in a sentence|` cut -d "<separator> -f <column no> <file>`|`-d` to signify the separator<br>`-f` to signify column no that will be outputted|
+|sort|sort items|` sort <file>`|`-r` reverse<br>`-n` numerically<br>`-u` remove duplicates(unique lines only)<br>`-R` randomise|
