@@ -33,3 +33,9 @@ This is the list of everything I learnt with their meanings so I can refer easil
 |head|see the first word of n lines(10 by default)|` <item to read> \|head`|`-n` to signify no of lines|
 |cut|to separate words in a sentence|` cut -d "<separator> -f <column no> <file>`|`-d` to signify the separator<br>`-f` to signify column no that will be outputted|
 |sort|sort items|` sort <file>`|`-r` reverse<br>`-n` numerically<br>`-u` remove duplicates(unique lines only)<br>`-R` randomise|
+|ps|lists running processes|`ps`|`-ef` standard full format<br>`aux` BSD syntax format|
+|kill|terminates a process by PID|`kill <PID>`|`-9` force kill (SIGKILL)|
+|fg|brings a background/suspended job to the foreground|`fg`|N.A.|
+|bg|resumes a suspended job in the background|`bg`|N.A.|
+|&|runs a command directly in the background|`<command> &`|N.A.|
+|$?|special variable containing the exit code of the last command|`echo $?`|N.A.|
